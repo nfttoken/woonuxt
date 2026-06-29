@@ -33843,7 +33843,6 @@ export const GetProductDocument = gql`
     type
     databaseId
     id
-    fullYoastHead(sanitize: true, frontendUrl: $frontEndUrl)
     metaData {
       id
       key
@@ -33862,6 +33861,17 @@ export const GetProductDocument = gql`
     ...ExternalProduct
     related(first: 5) {
       nodes {
+        name
+        slug
+        type
+        databaseId
+        id
+        averageRating
+        reviewCount
+        metaData {
+          key
+          value
+        }
         ...SimpleProduct
         ...VariableProduct
         ...ExternalProduct
@@ -33916,6 +33926,10 @@ export const GetProductsDocument = gql`
       id
       averageRating
       reviewCount
+      metaData {
+        key
+        value
+      }
       ...Terms
       ...ProductCategories
       ...SimpleProduct
