@@ -1,21 +1,48 @@
 {
   "account": {
     "myAccount": "Mi cuenta",
-    "login": "Iniciar sesi贸n",
-    "logout": "Cerrar sesi贸n",
+    "login": "Iniciar sesi\u00f3n",
+    "logout": "Cerrar sesi\u00f3n",
     "register": "Registrarse"
   },
   "general": {
+    "home": "Inicio",
+    "products": "Productos",
+    "contact": "Contacto",
     "search": "Buscar",
     "loading": "Cargando",
-    "viewAll": "Ver todo"
+    "viewAll": "Ver todo",
+    "information": "Informaci\u00f3n",
+    "about": "Acerca de",
+    "careers": "Carreras",
+    "press": "Prensa",
+    "customerService": "Atenci\u00f3n al cliente",
+    "contactUs": "Cont\u00e1ctanos",
+    "shippingReturns": "Env\u00edos y devoluciones",
+    "privacyPolicy": "Pol\u00edtica de privacidad",
+    "termsConditions": "T\u00e9rminos y condiciones",
+    "newsletter": "Bolet\u00edn",
+    "share": "Compartir"
   },
   "shop": {
-    "addToCart": "A帽adir al carrito",
+    "shopByCategory": "Comprar por categor\u00eda",
+    "popularProducts": "Productos populares",
+    "addToCart": "A\u00f1adir al carrito",
     "availability": "Disponibilidad",
     "sku": "SKU",
-    "category": "Categor铆a | Categor铆as",
+    "category": "Categor\u00eda | Categor\u00edas",
     "productNotFound": "Producto no encontrado",
-    "youMayLike": "Tambi茅n te puede gustar"
+    "youMayLike": "Tambi\u00e9n te puede gustar",
+    "wishlist": "Lista de deseos",
+    "wishlistAdd": "A\u00f1adir a la lista de deseos",
+    "wishlistRemove": "Quitar de la lista de deseos",
+    "orderHistory": "Historial de pedidos",
+    "productDescription": "Descripci\u00f3n",
+    "reviews": "Rese\u00f1as",
+    "newArrivals": "Novedades",
+    "onSale": "Ofertas",
+    "topRated": "Mejor valorados",
+    "giftCards": "Tarjetas de regalo",
+    "searchProducts": "Buscar productos..."
   }
 }

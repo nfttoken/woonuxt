@@ -6,16 +6,43 @@
     "register": "Register"
   },
   "general": {
+    "home": "Home",
+    "products": "Products",
+    "contact": "Contact",
     "search": "Search",
     "loading": "Loading",
-    "viewAll": "View all"
+    "viewAll": "View all",
+    "information": "Information",
+    "about": "About",
+    "careers": "Careers",
+    "press": "Press",
+    "customerService": "Customer Service",
+    "contactUs": "Contact Us",
+    "shippingReturns": "Shipping & Returns",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "newsletter": "Newsletter",
+    "share": "Share"
   },
   "shop": {
+    "shopByCategory": "Shop by Category",
+    "popularProducts": "Popular Products",
     "addToCart": "Add to cart",
     "availability": "Availability",
     "sku": "SKU",
     "category": "Category | Categories",
     "productNotFound": "Product not found",
-    "youMayLike": "You may also like"
+    "youMayLike": "You may also like",
+    "wishlist": "Wishlist",
+    "wishlistAdd": "Add to Wishlist",
+    "wishlistRemove": "Remove from Wishlist",
+    "orderHistory": "Order History",
+    "productDescription": "Description",
+    "reviews": "Reviews",
+    "newArrivals": "New Arrivals",
+    "onSale": "On Sale",
+    "topRated": "Top rated",
+    "giftCards": "Gift Cards",
+    "searchProducts": "Search Products..."
   }
 }
