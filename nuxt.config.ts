@@ -30,5 +30,13 @@ export default defineNuxtConfig({
       interval: 1000,
       failOnError: false,
     },
+    routeRules: {
+      // Cookie-based locale selection with no_prefix routing must stay dynamic,
+      // otherwise one locale's cached HTML can leak into other locales.
+      '/product/**': { prerender: false },
+      '/product-category/**': { prerender: false },
+      '/products': { prerender: false },
+      '/products/**': { prerender: false },
+    },
   },
 });
