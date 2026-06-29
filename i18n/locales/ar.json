@@ -1,21 +1,21 @@
 {
   "account": {
-    "myAccount": "丨爻丕亘賷",
-    "login": "鬲爻噩賷賱 丕賱丿禺賵賱",
-    "logout": "鬲爻噩賷賱 丕賱禺乇賵噩",
-    "register": "廿賳卮丕亍 丨爻丕亘"
+    "myAccount": "\u062d\u0633\u0627\u0628\u064a",
+    "login": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062f\u062e\u0648\u0644",
+    "logout": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062e\u0631\u0648\u062c",
+    "register": "\u0625\u0646\u0634\u0627\u0621 \u062d\u0633\u0627\u0628"
   },
   "general": {
-    "search": "亘丨孬",
-    "loading": "噩丕乇賺 丕賱鬲丨賲賷賱",
-    "viewAll": "毓乇囟 丕賱賰賱"
+    "search": "\u0628\u062d\u062b",
+    "loading": "\u062c\u0627\u0631\u064d \u0627\u0644\u062a\u062d\u0645\u064a\u0644",
+    "viewAll": "\u0639\u0631\u0636 \u0627\u0644\u0643\u0644"
   },
   "shop": {
-    "addToCart": "兀囟賮 廿賱賶 丕賱爻賱丞",
-    "availability": "丕賱鬲賵賮乇",
+    "addToCart": "\u0623\u0636\u0641 \u0625\u0644\u0649 \u0627\u0644\u0633\u0644\u0629",
+    "availability": "\u0627\u0644\u062a\u0648\u0641\u0631",
     "sku": "SKU",
-    "category": "丕賱賮卅丞 | 丕賱賮卅丕鬲",
-    "productNotFound": "丕賱賲賳鬲噩 睾賷乇 賲賵噩賵丿",
-    "youMayLike": "賯丿 賷毓噩亘賰 兀賷囟賸丕"
+    "category": "\u0627\u0644\u0641\u0626\u0629 | \u0627\u0644\u0641\u0626\u0627\u062a",
+    "productNotFound": "\u0627\u0644\u0645\u0646\u062a\u062c \u063a\u064a\u0631 \u0645\u0648\u062c\u0648\u062f",
+    "youMayLike": "\u0642\u062f \u064a\u0639\u062c\u0628\u0643 \u0623\u064a\u0636\u064b\u0627"
   }
 }

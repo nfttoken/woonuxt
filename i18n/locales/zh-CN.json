@@ -1,21 +1,21 @@
 {
   "account": {
-    "myAccount": "鎴戠殑璐︽埛",
-    "login": "鐧诲綍",
-    "logout": "閫€鍑?,
-    "register": "娉ㄥ唽"
+    "myAccount": "\u6211\u7684\u8d26\u6237",
+    "login": "\u767b\u5f55",
+    "logout": "\u9000\u51fa",
+    "register": "\u6ce8\u518c"
   },
   "general": {
-    "search": "鎼滅储",
-    "loading": "鍔犺浇涓?,
-    "viewAll": "鏌ョ湅鍏ㄩ儴"
+    "search": "\u641c\u7d22",
+    "loading": "\u52a0\u8f7d\u4e2d",
+    "viewAll": "\u67e5\u770b\u5168\u90e8"
   },
   "shop": {
-    "addToCart": "鍔犲叆璐墿杞?,
-    "availability": "搴撳瓨鐘舵€?,
+    "addToCart": "\u52a0\u5165\u8d2d\u7269\u8f66",
+    "availability": "\u5e93\u5b58\u72b6\u6001",
     "sku": "SKU",
-    "category": "鍒嗙被",
-    "productNotFound": "鍟嗗搧鏈壘鍒?,
-    "youMayLike": "浣犲彲鑳戒篃鍠滄"
+    "category": "\u5206\u7c7b",
+    "productNotFound": "\u5546\u54c1\u672a\u627e\u5230",
+    "youMayLike": "\u4f60\u53ef\u80fd\u4e5f\u559c\u6b22"
   }
 }
