@@ -1,4 +1,4 @@
-query getProduct($slug: ID!, $frontEndUrl: String = "") {
+query getProduct($slug: ID!) {
   product(id: $slug, idType: SLUG) {
     name
     type

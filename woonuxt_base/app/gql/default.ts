@@ -32655,7 +32655,6 @@ export type GetOrdersQuery = { customer: { orders: { nodes: Array<{ orderNumber:
 
 export type GetProductQueryVariables = Exact<{
   slug: string | number;
-  frontEndUrl?: string | null | undefined;
 }>;
 
 
@@ -33837,7 +33836,7 @@ export const GetOrdersDocument = gql`
 }
     ${OrderFragmentFragmentDoc}`;
 export const GetProductDocument = gql`
-    query getProduct($slug: ID!, $frontEndUrl: String = "") {
+    query getProduct($slug: ID!) {
   product(id: $slug, idType: SLUG) {
     name
     type

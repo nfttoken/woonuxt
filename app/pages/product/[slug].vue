@@ -6,12 +6,12 @@ import type { LocalizedProductPayload } from '../../utils/aiCommerce';
 const route = useRoute();
 const { storeSettings } = useAppConfig();
 const { addToCart, isUpdatingCart, isAddingToCart, isOptimisticCartMode } = useCart();
-const { frontEndUrl, getErrorMessage } = useHelpers();
+const { getErrorMessage } = useHelpers();
 const { t, locale } = useI18n();
 const gql = useWooGraphQL();
 const slug = route.params.slug as string;
 
-const { data, error } = await useAsyncGql('getProduct', { slug, frontEndUrl });
+const { data, error } = await useAsyncGql('getProduct', { slug });
 const localizedQuery = computed(() => ({ locale: locale.value }));
 const { data: localizedData } = await useFetch<LocalizedProductPayload>(() => `/api/products/${slug}`, {
   query: localizedQuery,

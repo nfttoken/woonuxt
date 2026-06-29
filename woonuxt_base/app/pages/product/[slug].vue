@@ -5,12 +5,12 @@ import type { ExternalProduct, ProductDetail, Variation, VariationAttribute } fr
 const route = useRoute();
 const { storeSettings } = useAppConfig();
 const { addToCart, isUpdatingCart, isAddingToCart, isOptimisticCartMode } = useCart();
-const { frontEndUrl, getErrorMessage } = useHelpers();
+const { getErrorMessage } = useHelpers();
 const { t } = useI18n();
 const gql = useWooGraphQL();
 const slug = route.params.slug as string;
 
-const { data, error } = await useAsyncGql('getProduct', { slug, frontEndUrl });
+const { data, error } = await useAsyncGql('getProduct', { slug });
 const product = ref<ProductDetail | null>(data.value?.product ?? null);
 const quantity = ref<number>(1);
 const activeVariation = ref<Variation | null>(null);
