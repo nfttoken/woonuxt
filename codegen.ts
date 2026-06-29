@@ -14,14 +14,14 @@ const config: CodegenConfig = {
       },
     },
   ],
-  documents: ['woonuxt_base/app/queries/**/*.gql'],
+  documents: ['app/queries/**/*.gql', 'woonuxt_base/app/queries/**/*.gql'],
   generates: {
     'woonuxt_base/app/gql/default.ts': {
       plugins: [
         {
           add: {
             content:
-              '/* eslint-disable */\n// @ts-nocheck\n// This file is auto-generated. Do not edit manually — run `npm run graphql:codegen` to regenerate.\n',
+              '/* eslint-disable */\n// @ts-nocheck\n// This file is auto-generated. Do not edit manually 鈥?run `npm run graphql:codegen` to regenerate.\n',
           },
         },
         'typescript',
