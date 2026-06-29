@@ -1,0 +1,21 @@
+{
+  "account": {
+    "myAccount": "Mi cuenta",
+    "login": "Iniciar sesi贸n",
+    "logout": "Cerrar sesi贸n",
+    "register": "Registrarse"
+  },
+  "general": {
+    "search": "Buscar",
+    "loading": "Cargando",
+    "viewAll": "Ver todo"
+  },
+  "shop": {
+    "addToCart": "A帽adir al carrito",
+    "availability": "Disponibilidad",
+    "sku": "SKU",
+    "category": "Categor铆a | Categor铆as",
+    "productNotFound": "Producto no encontrado",
+    "youMayLike": "Tambi茅n te puede gustar"
+  }
+}

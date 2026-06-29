@@ -6,11 +6,12 @@ export default defineNuxtConfig({
 
   i18n: {
     locales: [
-      { code: 'en', file: 'en-US.json', name: 'English' },
-      { code: 'zh', file: 'en-US.json', name: '涓枃' },
-      { code: 'es', file: 'es-ES.json', name: 'Espa帽ol' },
-      { code: 'ar', file: 'en-US.json', name: '丕賱毓乇亘賷丞' },
+      { code: 'en', language: 'en-US', file: 'en-US.json', name: 'English', dir: 'ltr' },
+      { code: 'zh', language: 'zh-CN', file: 'zh-CN.json', name: 'Chinese', dir: 'ltr' },
+      { code: 'es', language: 'es-ES', file: 'es-ES.json', name: 'Spanish', dir: 'ltr' },
+      { code: 'ar', language: 'ar', file: 'ar.json', name: 'Arabic', dir: 'rtl' },
     ],
+    langDir: 'locales',
     defaultLocale: 'en',
     strategy: 'no_prefix',
   },

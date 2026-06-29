@@ -1,0 +1,21 @@
+{
+  "account": {
+    "myAccount": "My account",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "general": {
+    "search": "Search",
+    "loading": "Loading",
+    "viewAll": "View all"
+  },
+  "shop": {
+    "addToCart": "Add to cart",
+    "availability": "Availability",
+    "sku": "SKU",
+    "category": "Category | Categories",
+    "productNotFound": "Product not found",
+    "youMayLike": "You may also like"
+  }
+}

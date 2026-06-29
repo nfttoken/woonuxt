@@ -191,6 +191,7 @@ watch([product, localizedData], applyLocalizedContent, { immediate: true });
 const localizedDescription = computed(
   () => localizedData.value?.description || product.value?.shortDescription || product.value?.description || '',
 );
+const pageTitle = computed(() => localizedData.value?.title || product.value?.name || '');
 const pageDir = computed<'ltr' | 'rtl'>(() => localizedData.value?.dir || 'ltr');
 const pageLang = computed(() => localizedData.value?.locale || 'en');
 
@@ -336,7 +337,7 @@ const addToCartLoading = computed(() => (isOptimisticCartMode.value ? false : is
           <div class="flex justify-between mb-4">
             <div class="flex-1">
               <h1 class="flex flex-wrap items-center gap-2 mb-2 text-2xl font-sesmibold">
-                {{ displayProduct.name }}
+                {{ pageTitle }}
                 <LazyWPAdminLink :link="`/wp-admin/post.php?post=${product.databaseId}&action=edit`">Edit</LazyWPAdminLink>
               </h1>
               <StarRating v-if="storeSettings.showReviews" :rating="averageRating" :count="reviewCount" />

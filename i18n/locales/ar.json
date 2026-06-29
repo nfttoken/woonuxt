@@ -1,0 +1,21 @@
+{
+  "account": {
+    "myAccount": "丨爻丕亘賷",
+    "login": "鬲爻噩賷賱 丕賱丿禺賵賱",
+    "logout": "鬲爻噩賷賱 丕賱禺乇賵噩",
+    "register": "廿賳卮丕亍 丨爻丕亘"
+  },
+  "general": {
+    "search": "亘丨孬",
+    "loading": "噩丕乇賺 丕賱鬲丨賲賷賱",
+    "viewAll": "毓乇囟 丕賱賰賱"
+  },
+  "shop": {
+    "addToCart": "兀囟賮 廿賱賶 丕賱爻賱丞",
+    "availability": "丕賱鬲賵賮乇",
+    "sku": "SKU",
+    "category": "丕賱賮卅丞 | 丕賱賮卅丕鬲",
+    "productNotFound": "丕賱賲賳鬲噩 睾賷乇 賲賵噩賵丿",
+    "youMayLike": "賯丿 賷毓噩亘賰 兀賷囟賸丕"
+  }
+}

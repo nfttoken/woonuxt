@@ -1,0 +1,21 @@
+{
+  "account": {
+    "myAccount": "鎴戠殑璐︽埛",
+    "login": "鐧诲綍",
+    "logout": "閫€鍑?,
+    "register": "娉ㄥ唽"
+  },
+  "general": {
+    "search": "鎼滅储",
+    "loading": "鍔犺浇涓?,
+    "viewAll": "鏌ョ湅鍏ㄩ儴"
+  },
+  "shop": {
+    "addToCart": "鍔犲叆璐墿杞?,
+    "availability": "搴撳瓨鐘舵€?,
+    "sku": "SKU",
+    "category": "鍒嗙被",
+    "productNotFound": "鍟嗗搧鏈壘鍒?,
+    "youMayLike": "浣犲彲鑳戒篃鍠滄"
+  }
+}
