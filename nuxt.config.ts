@@ -4,6 +4,17 @@ export default defineNuxtConfig({
 
   components: [{ path: './components', pathPrefix: false }],
 
+  i18n: {
+    locales: [
+      { code: 'en', file: 'en-US.json', name: 'English' },
+      { code: 'zh', file: 'en-US.json', name: '涓枃' },
+      { code: 'es', file: 'es-ES.json', name: 'Espa帽ol' },
+      { code: 'ar', file: 'en-US.json', name: '丕賱毓乇亘賷丞' },
+    ],
+    defaultLocale: 'en',
+    strategy: 'no_prefix',
+  },
+
   /**
    * Depending on your servers capabilities, you may need to adjust the following settings.
    * It will affect the build time but also increase the reliability of the build process.
